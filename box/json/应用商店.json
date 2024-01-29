@@ -37,67 +37,67 @@
         "name": "Fongmi影视",
         "url": "https://fm.caioa.link/main/apk/release/leanback-python-arm64_v8a.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ys.png",
-        "version": "电视端-py-v8a"
+        "version": "电视版-py-v8a"
       },
       {
         "name": "Fongmi影视",
         "url": "https://fm.caioa.link/main/apk/release/mobile-python-arm64_v8a.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ys.png",
-        "version": "手机端-py-v8a"
+        "version": "手机版-py-v8a"
       },
       {
         "name": "Fongmi影视",
         "url": "https://fm.caioa.link/main/apk/kitkat/leanback.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ys.png",
-        "version": "电视端-安卓4.x版"
+        "version": "电视版-安卓4.x版"
       },
   {
         "name": "影视仓",
         "url": "https://cloud.lxweb.cn/f/PyZgsb/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.22.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ysc.png",
-        "version": "电视端5.0.22"
+        "version": "电视版5.0.22"
       },
       {
         "name": "影视仓",
         "url": "https://cloud.lxweb.cn/f/LQeyuD/%E5%BD%B1%E8%A7%86%E4%BB%93_5.0.22_%E6%B5%B7%E4%BF%A1%E7%89%88.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ysc.png",
-        "version": "电视端5.0.22海信版"
+        "version": "电视版5.0.22海信版"
       },
       {
         "name": "影视仓",
         "url": "https://cloud.lxweb.cn/f/akMyu6/%E5%BD%B1%E8%A7%86%E4%BB%93_3.0.36.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ysc.png",
-        "version": "电视端3.0-安卓4.x版"
+        "version": "电视版3.0-安卓4.x版"
       },
       {
         "name": "影视仓",
         "url": "https://cloud.lxweb.cn/f/QxBbH1/%E5%BD%B1%E8%A7%86%E4%BB%93_2.0.17-%E7%9F%AD%E8%A7%86%E9%A2%91_r_opt.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ysc-dsp.png",
-        "version": "手机端2.0.17-短视频版"
+        "version": "手机版2.0.17-短视频版"
       },
       {
         "name": "影视仓",
         "url": "https://cloud.lxweb.cn/f/K0kwuX/%E5%BD%B1%E8%A7%86%E4%BB%93_2.0.17-%E6%B8%B8%E6%88%8F_r_opt.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/ysc-yx.png",
-        "version": "手机端2.0.17-游戏版"
+        "version": "手机版2.0.17-游戏版"
       },
       {
         "name": "影迷",
         "url": "https://cloud.lxweb.cn/f/NrmGsR/%E7%AB%96%E5%B1%8F%E7%89%88_%E5%BD%B1%E8%BF%B7_2.4.0.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/yingmi.png",
-        "version": "手机端"
+        "version": "手机版2.4.0"
       },
       {
         "name": "Tvbox",
         "url": "https://cloud.lxweb.cn/f/djqru2/TVBox_q215613905_20231105-0923.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/tvboxq.png",
-        "version": "Q版"
+        "version": "Ver.20231105"
       },
       {
         "name": "Tvbox",
         "url": "https://cloud.lxweb.cn/f/p6Ojse/TVBox_takagen99_20240129-0046.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/tvboxt.png",
-        "version": "takagen99-20240129"
+        "version": "Ver.20240129"
       },
       {
         "name": "DIYP",
@@ -121,7 +121,7 @@
         "name": "小白文件管理器",
         "url": "https://cloud.lxweb.cn/f/eNVpCa/%E5%B0%8F%E7%99%BD%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8TV.apk",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main//icon/xiaobai.png",
-        "version": ""
+        "version": "TV版"
       },
      
       {
