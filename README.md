@@ -9,7 +9,7 @@
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/w6566/tvlive?style=flat-square">
 <img alt="GitHub" src="https://img.shields.io/github/license/w6566/tvlive?style=flat-square">
 <a href="https://test-ipv6.com/"><img src="https://img.shields.io/badge/IPV6-测试-red" alt="Downloads" /></a>
-<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Do__bHy-HrojxhDoxi1eiwftzRrZr3C6&authKey=sR8srTEppb6xl9DDRQTopqP%2FcU3Swzwa42Oyn35gmllZaZ2HJLgo7mN%2BmmWuR9Nv&noverify=0&group_code=48481548"><img src="https://img.shields.io/badge/QQ群-无界-green" alt="Downloads" /></a>
+<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Do__bHy-HrojxhDoxi1eiwftzRrZr3C6&authKey=sR8srTEppb6xl9DDRQTopqP%2FcU3Swzwa42Oyn35gmllZaZ2HJLgo7mN%2BmmWuR9Nv&noverify=0&group_code=48481548"><img src="https://img.shields.io/badge/QQ群-无界交流-green" alt="Downloads" /></a>
 
 </p>
 
