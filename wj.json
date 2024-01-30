@@ -23,8 +23,9 @@
 
 "sites":[
     
-{"key":"豆瓣","name":"无界🌏QQ群48481548🌙Ver.240123","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/douban.js"},
+{"key":"豆瓣","name":"无界🌏Ver.240130","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/douban.js"},
 {"key":"商店","name":"无界🌏应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./box/json/应用商店.json","jar":"./box/spider/app.jar"},
+{"key":"直播转点播","name":"无界🌏电视直播","type":3,"searchable":0,"api":"./box/js/live2vod.js","ext":"./box/json/live.json"},
 {"key":"本地","name":"无界🌏本地存储","type":3,"api":"csp_LocalFile","searchable":0,"changeable":0},
 {"key":"KungFu404","name":"无界🌏设置Token","type":3,"api":"csp_KungFu404","searchable":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./box/spider/alibaba.jar"},
 {"key":"AList","name":"无界🌏AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./box/json/alist.json"},
@@ -32,6 +33,7 @@
 {"key":"叨观荐影","name":"无界🌏影视预告","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./box/spider/fty.jar"},
 {"key":"玩偶哥哥","name":"无界🌏玩偶[4K]","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹","jar":"./box/spider/fty.jar"},
 {"key":"4KHDR","name":"无界🌏HDR[4K]","type":3,"searchable":1,"quickSearch":1,"changeable":0,"api":"./box/js/drpy2.min.js","ext":"./box/js/4khdr.js"},
+{"key":"影探","name":"无界🌏影探[4K]","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/影探.js"},
 {"key":"爱奇艺","name":"无界🌏爱奇异[官]","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/iqiyi.js"},
 {"key":"优酷","name":"无界🌏优酷[官]","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/youku.js"},
 {"key":"腾讯","name":"无界🌏腾讯[官]","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/qq.js"},
@@ -199,8 +201,9 @@
 {"key":"小学课堂","name":"无界🌏小学课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/小学课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"初中课堂","name":"无界🌏初中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/初中课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"高中教育","name":"无界🌏高中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/高中课堂.json","jar":"./box/spider/fty.jar"},
-{"key":"text","name":"无界🌏请勿相信视频中的任何广告","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"text","name":"无界🌏请勿相信视频中的任何广告","type":3,"api":"csp_Hanime","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"text","name":"无界🌏Sina微博@·王健·","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"text","name":"无界🌏QQ群48481548","type":3,"api":"csp_Jable","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"手机推送","name":"无界🌏手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"}
 
 ],
