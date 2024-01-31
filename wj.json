@@ -137,7 +137,8 @@
 {"key":"6V","name":"无界🌏6V磁力2","type":3,"api":"./box/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./box/js/6V.js"},
 {"key":"贝尔","name":"无界🌏贝尔磁力","type":3,"api":"./box/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./box/js/bear.js"},
 //体育
-{"key":"88","name":"无界🌏88看球","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/88看球.js","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0},
+{"key":"88js","name":"无界🌏在线看球","type":3,"api":"csp_Kanqiu","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"jar":"./box/spider/fty.jar"},
+{"key":"88","name":"无界🌏88看球","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/88看球.js","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"jar":"./box/spider/fty.jar"},
 {"key":"Jrs","name":"无界🌏Jrs球迷","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/jrk.js","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"310","name":"无界🌏310看球","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/310直播.js","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"企鹅体育","name":"无界🌏企鹅体育js","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/企鹅直播.json"},
