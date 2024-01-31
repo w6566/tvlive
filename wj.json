@@ -3,6 +3,7 @@
 "warningText":"正在加载!请稍后!Sina微博@·王健·",
 "wallpaper":"./wallpaper/8K01.jpg",
 
+	
 "lives":[
 {"name":"无界🌏IPV6+IPV4","type":0,"url":"./box/live/live.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"FMM🌏IPV6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}, 
@@ -18,7 +19,7 @@
 {"name":"YuanHsing🌏YouTube","type":0,"url":"https://fongmi.cachefly.net/YuanHsing/YouTube_to_m3u/main/youtube.m3u"}, 
 {"name":"无界🌏Beta🈲","type":0,"url":"./box/live/beta.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 
-],
+]，
 
 
 "sites":[
@@ -27,7 +28,7 @@
 {"key":"商店","name":"无界🌏应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./box/json/应用商店.json","jar":"./box/spider/app.jar"},
 {"key":"直播转点播","name":"无界🌏电视直播","type":3,"searchable":0,"api":"./box/js/live2vod.js","ext":"./box/json/live.json"},
 {"key":"本地","name":"无界🌏本地存储","type":3,"api":"csp_LocalFile","searchable":0,"changeable":0},
-{"key":"KungFu404","name":"无界🌏设置Token","type":3,"api":"csp_KungFu404","searchable":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./box/spider/alibaba.jar"},
+{"key":"KungFu404","name":"无界🌏设置Token","type":3,"api":"csp_KungFu404"，"searchable":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/tok.txt","jar":"./box/spider/alibaba.jar"},
 {"key":"AList","name":"无界🌏AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./box/json/alist.json"},
 {"key":"WebDAV","name":"无界🌏WebDAV","type":3,"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":"./box/json/webdav.json"},
 {"key":"叨观荐影","name":"无界🌏影视预告","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./box/spider/fty.jar"},
