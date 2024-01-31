@@ -37,19 +37,26 @@
     <tr>
       <td>①</td>
       <td>仓库线路推送</td>
+      <td>http://www.cwss.xyz/wj.json</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <td>②</td>
+      <td>仓库线路推送</td>
       <td>https://w6566.github.io/tvlive/wj.json</td>
       <td>✔</td>
       <td>✔</td>
     </tr>
      <tr>
-      <td>②</td>
-      <td>仓库线路推送</td>
-      <td>https://gitee.com/wj0321/tvlive/raw/main/wj.json</td>
-      <td>✔</td>
+      <td>③</td>
+      <td>直播源推送</td>
+      <td>http://www.cwss.xyz/box/live/live.txt</td>
       <td>❌</td>
+      <td>✔</td>
     </tr>
      <tr>
-      <td>③</td>
+      <td>④</td>
       <td>直播源推送</td>
       <td>https://w6566.github.io/tvlive/box/live/live.txt</td>
       <td>❌</td>
