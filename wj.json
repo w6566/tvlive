@@ -99,7 +99,6 @@
 {"key":"哔嘀","name":"无界🌏哔嘀影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./box/json/哔嘀影视.json","jar":"./box/spider/xyq.jar"},
 {"key":"一起看","name":"无界🌏一起看片","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1,"jar":"./box/spider/fty.jar"},
 {"key":"在线","name":"无界🌏在线影视","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzj.pro/","jar":"./box/spider/fty.jar"},
-{"key":"搜狐","name":"无界🌏搜狐影视","type":1,"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1,"playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 {"key":"暴风","name":"无界🌏暴风影视","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","playUrl":"","categories":["国产剧","国产动漫","大陆综艺","港台综艺","香港剧","台湾剧","日本剧","欧美剧","泰国剧","日本动漫","日本综艺","综艺频道","新马泰综艺","纪录片","科幻片","喜剧片","战争片"]},
 {"key":"快车资源","name":"无界🌏快车影视","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","战争片","动作片","香港剧"]},
 {"key":"金鹰资源","name":"无界🌏金鹰影视","type":1,"api":"https://jyzyapi.com/provide/vod/","playUrl":"","searchable":1,"quickSearch":1},
@@ -199,7 +198,7 @@
 {"key":"初中课堂","name":"无界🌏初中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/初中课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"高中教育","name":"无界🌏高中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/高中课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"手机推送","name":"无界🌏手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-{"key":"奥特","name":"请勿相信视频中的任何广告","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://haozhansou.com/"},
+{"key":"奥特","name":"请勿相信视频中的任何广告","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://haozhansou.com/","jar":"./box/spider/fty.jar"},
 {"key":"西瓜","name":"无界发布页http://www.cwss.xyz","type":3,"playerType":2,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
 {"key":"text3","name":"QQ群48481548","type":3,"api":"csp_Jable","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"特工","name":"Sina微博@·王健·","type":3,"api":"./box/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./box/js/007.js"}
