@@ -200,9 +200,9 @@
 {"key":"小学课堂","name":"无界🌏小学课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/小学课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"初中课堂","name":"无界🌏初中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/初中课堂.json","jar":"./box/spider/fty.jar"},
 {"key":"高中教育","name":"无界🌏高中课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./box/json/高中课堂.json","jar":"./box/spider/fty.jar"},
-{"key":"text","name":"无界🌏请勿相信视频中的任何广告","type":3,"api":"csp_Hanime","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"text","name":"无界🌏Sina微博@·王健·","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"text","name":"无界🌏QQ群48481548","type":3,"api":"csp_Jable","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"text1","name":"无界🌏请勿相信视频中的任何广告","type":3,"api":"csp_Hanime","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"text2","name":"无界🌏Sina微博@·王健·","type":3,"api":"csp_Tangrenjie","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"text3","name":"无界🌏QQ群48481548","type":3,"api":"csp_Jable","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"手机推送","name":"无界🌏手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"}
 
 ],
