@@ -32,6 +32,7 @@
       <th>推送地址</th>
       <th>点播</th>
       <th>直播</th>
+      <th>备注</th>
     </tr>
   </thead>
   <tbody>
@@ -41,6 +42,7 @@
       <td>http://www.cwss.xyz/wj.json</td>
       <td>✔</td>
       <td>✔</td>
+      <td>Final</td>
     </tr>
     <tr>
       <td>②</td>
@@ -48,6 +50,7 @@
       <td>https://w6566.github.io/tvlive/wj.json</td>
       <td>✔</td>
       <td>✔</td>
+      <td>Beta</td>
     </tr>
      <tr>
       <td>③</td>
@@ -55,6 +58,7 @@
       <td>http://www.cwss.xyz/box/live/live.txt</td>
       <td>❌</td>
       <td>✔</td>
+      <td>Final</td>
     </tr>
      <tr>
       <td>④</td>
@@ -62,6 +66,7 @@
       <td>https://w6566.github.io/tvlive/box/live/live.txt</td>
       <td>❌</td>
       <td>✔</td>
+      <td>Beta</td>
     </tr>
     
   </tbody>
