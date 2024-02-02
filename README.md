@@ -39,7 +39,7 @@
     <tr>
       <td>①</td>
       <td>仓库线路推送</td>
-      <td>http://www.cwss.xyz/wj.json</td>
+      <td>https://www.cwss.xyz/wj.json</td>
       <td>✔</td>
       <td>✔</td>
       <td>Final</td>
@@ -55,7 +55,7 @@
      <tr>
       <td>③</td>
       <td>直播源推送</td>
-      <td>http://www.cwss.xyz/box/live/live.txt</td>
+      <td>https://www.cwss.xyz/box/live/live.txt</td>
       <td>❌</td>
       <td>✔</td>
       <td>Final</td>
