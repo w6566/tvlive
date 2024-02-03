@@ -23,7 +23,7 @@
 
 "sites":[
     
-{"key":"豆瓣","name":"无界🌏Ver.240201","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/douban.js"},
+{"key":"豆瓣","name":"无界🌏Ver.240203","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/douban.js"},
 {"key":"商店","name":"无界🌏应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./box/json/应用商店.json","jar":"./box/spider/app.jar"},
 {"key":"直播转点播","name":"无界🌏电视直播","type":3,"searchable":0,"api":"./box/js/live2vod.js","ext":"./box/json/live.json"},
 {"key":"本地","name":"无界🌏本地存储","type":3,"api":"csp_LocalFile","searchable":0,"changeable":0},
