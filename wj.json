@@ -31,6 +31,7 @@
 {"key":"AList","name":"无界🌏AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./box/json/alist.json"},
 {"key":"WebDAV","name":"无界🌏WebDAV","type":3,"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":"./box/json/webdav.json"},
 {"key":"叨观荐影","name":"无界🌏影视预告","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./box/spider/fty.jar"},
+{"key":"csp_XBPQ_6V","name":"无界🌏磁力[4K]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./box/json/6V磁.json"},
 {"key":"玩偶哥哥","name":"无界🌏玩偶[4K]","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹","jar":"./box/spider/fty.jar"},
 {"key":"4KHDR","name":"无界🌏HDR[4K]","type":3,"searchable":1,"quickSearch":1,"changeable":0,"api":"./box/js/drpy2.min.js","ext":"./box/js/4khdr.js"},
 {"key":"影探","name":"无界🌏影探[4K]","type":3,"api":"./box/js/drpy2.min.js","ext":"./box/js/影探.js","jar":"./box/spider/PandaQ240203.jar"},
