@@ -32,7 +32,7 @@ var rule = {
 	headers:{'User-Agent':'okhttp/4.1.0'},
 	timeout:5000,
 	// 分类筛选 /api.php/app/nav || /xgapp.php/v1/nav || /api.php/v1.vod/types
-	class_name:'新电影4K&新剧4K&好莱坞4K&港台经典4k&少儿动画4K&国剧盛典4K&怀旧TVB&动漫4K&邵氏老电影4K&国产老电影4K&合拍经典4K&明星专辑4K&恐怖片精选4K&动漫&综艺&电影综合&电视剧综合&体育赛事',
+	class_name:'🌜新电影4K&🌜新剧4K&🌜好莱坞4K&🌜港台经典4k&🌜少儿动画4K&🌜国剧盛典4K&🌜怀旧TVB&🌜动漫4K&🌜邵氏老电影4K&🌜国产老电影4K&🌜合拍经典4K&🌜明星专辑4K&🌜恐怖片精选4K&🌜动漫&🌜综艺&🌜电影综合&🌜电视剧综合&🌜体育赛事',
 	class_url:'20&21&47&48&50&46&53&58&5&44&51&45&52&4&3&1&2&32',
 	play_parse:true,
 	lazy:`js:
