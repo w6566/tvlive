@@ -1,0 +1,115 @@
+{
+    "classes": [
+        {
+            "type_name": "电影",
+            "type_id": "hydy"
+        },
+        {
+            "type_name": "电视",
+            "type_id": "hyds"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "hydm"
+        },
+        {
+            "type_name": "视频",
+            "type_id": "zyp"
+        }
+    ],
+    "filters": {
+        "hydy": [
+            {
+                "key": "tid",
+                "name": "分类",
+                "value": [
+                    {
+                        "n": "华语电影",
+                        "v": "hydy"
+                    },
+                    {
+                        "n": "日韩电影",
+                        "v": "rhdy"
+                    },
+                    {
+                        "n": "欧美电影",
+                        "v": "omdy"
+                    },
+                    {
+                        "n": "其他电影",
+                        "v": "qtdy"
+                    }
+                ]
+            }
+        ],
+        "hyds": [
+            {
+                "key": "tid",
+                "name": "分类",
+                "value": [
+                    {
+                        "n": "华语电视",
+                        "v": "hyds"
+                    },
+                    {
+                        "n": "日韩电视",
+                        "v": "rhds"
+                    },
+                    {
+                        "n": "欧美电视",
+                        "v": "omds"
+                    },
+                    {
+                        "n": "其他电视",
+                        "v": "qtds"
+                    }
+                ]
+            }
+        ],
+        "hydm": [
+            {
+                "key": "tid",
+                "name": "分类",
+                "value": [
+                    {
+                        "n": "国漫",
+                        "v": "hydm"
+                    },
+                    {
+                        "n": "日漫",
+                        "v": "rydm"
+                    },
+                    {
+                        "n": "美漫",
+                        "v": "omdm"
+                    }
+                ]
+            }
+        ],
+        "zyp": [
+            {
+                "key": "tid",
+                "name": "分类",
+                "value": [
+                    {
+                        "n": "纪录",
+                        "v": "jlp"
+                    },
+                    {
+                        "n": "综艺",
+                        "v": "zyp"
+                    },
+                    {
+                        "n": "培训",
+                        "v": "jypx"
+                    },
+                    {
+                        "n": "其他",
+                        "v": "qtsp"
+                    }
+                ]
+            }
+        ]
+    },
+    "yiSoCookie": "satoken=eb8104a7-615d-4814-9f56-09bf700c30ca"
+}
