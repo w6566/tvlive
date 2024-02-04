@@ -1,5 +1,5 @@
 🇨🇳央视频道[V6],#genre#
-无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv1/playlist.m3u8
+无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv2/playlist.m3u8
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb07]/wh7f454c46tw3252572940_-481357165/ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8?icpid=3&RTS=1668593752&from=40&ocs=2_2409:8087:2001:20:2800:0:df6e:eb0a_80&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb12]:80/wh7f454c46tw3964344116_67852184/ott.mobaibox.com/PLTV/3/224/3221227675/index.m3u8?icpid=3&RTS=1674379784&from=40&ocs=2_2409:8087:2001:20:2800:0:df6e:eb0f_80&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 CCTV1,http://[2409:8087:2001:20:2800:0:df6e:eb15]:80/wh7f454c46tw1925441929_1417964840/ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8?icpid=3&RTS=1674386335&from=40&ocs=2_2409:8087:2004:20:2800:0:df6e:ec0d_80&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
@@ -1269,7 +1269,7 @@ CHC家庭影院,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLT
 CHC家庭影院,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
 🇨🇳央视频道[V4],#genre#
-无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv1/playlist.m3u8
+无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv2/playlist.m3u8
 CCTV1,http://1.196.252.142:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://111.20.35.103:6610/000000001000/1000000001000021973/index.m3u8?channel-id=ystenlive&Contentid=1000000001000021973&livemode=1&stbId=00
 CCTV1,http://111.20.35.103:6610/yinhe/2/ch00000090990000001068/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -1812,7 +1812,7 @@ CHC家庭影院,http://dbiptv.sn.chinamobile.com/TVOD/88888893/224/3221226462/in
 中央新影中学生,https://live.v1.mk/api/cqyx.php?id=qicai
 
 🛰卫视频道[V6],#genre#
-无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv1/playlist.m3u8
+无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv2/playlist.m3u8
 安徽卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
 安徽卫视,http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225925/index.m3u8
 安徽卫视,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2802330256_375747539/ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8?icpid=3&RTS=1668597596&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
@@ -2589,7 +2589,7 @@ CHC家庭影院,http://dbiptv.sn.chinamobile.com/TVOD/88888893/224/3221226462/in
 重庆卫视,http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226202/1.m3u8
 重庆卫视,http://[2409:8087:74F1:0021::0008]:80/PLTV/88888888/224/3221226551/1.m3u8
 🛰卫视频道[V4],#genre#
-无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv1/playlist.m3u8安徽卫视,http://111.59.63.32:9901/tsfile/live/1027_1.m3u8
+无界Ver.240202,https://gitee.com/wj0321/tvlive/raw/main/video/mv2/playlist.m3u8安徽卫视,http://111.59.63.32:9901/tsfile/live/1027_1.m3u8
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
 东方卫视,http://61.182.33.218:8000/hls/30/index.m3u8
 广东卫视,http://1.24.190.98:10088/hls/79/index.m3u8
