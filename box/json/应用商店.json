@@ -18,7 +18,7 @@
         "name": "微博主页",
         "url": "https://gitee.com/wj0321/tvlive/raw/main/icon/wb.png",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main/icon/wb.png", 
-        "version": ""
+        "version": "扫码访问"
       }
 
     ]
@@ -195,7 +195,7 @@
         "name": "Sina微博",
         "url": "https://gitee.com/wj0321/tvlive/raw/main/icon/wb.png",
         "icon": "https://gitee.com/wj0321/tvlive/raw/main/icon/wb.png", 
-        "version": ""
+        "version": "扫码访问"
       }, 
       {
         "name": "QQ群",
