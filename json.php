@@ -5,11 +5,9 @@
 
 // 伪静态
 
-location ~* (runtime|application)/{
-	return 403;
-}
+
 location / {
-		rewrite  ^.*(\.json)$  /json.php?s=$1  last;   break;
+		rewrite  ^.*\.(json|txt)$  /json.php?s=$1  last;   break;
 }
 
 
