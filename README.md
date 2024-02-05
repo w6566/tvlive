@@ -13,7 +13,7 @@
 
 </p>
 
-
+### 🌏官网地址：[点击访问](https://www.无界.top)
 
 ### ⏱️更新日志：
 - 2024-01-31：完成服务器搭建，全新接口上线。
@@ -21,57 +21,6 @@
 - 2024-01-09：修复点播接口，底部加入跑马灯通知栏。
 - 2024-01-06：新增点播接口，仓库更名。
 - 2024-01-05：修复在fongmi影视下推送线路获取失败的问题，集成多条直播线路。
-
-
-### ⚙️推送地址：
-<table>
-  <thead>
-    <tr>
-      <th>序号</th>
-      <th>推送类型</th>
-      <th>推送地址</th>
-      <th>点播</th>
-      <th>直播</th>
-      <th>备注</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>①</td>
-      <td>仓库线路推送</td>
-      <td>https://www.cwss.xyz/wj.json</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>Final</td>
-    </tr>
-    <tr>
-      <td>②</td>
-      <td>仓库线路推送</td>
-      <td>https://w6566.github.io/tvlive/wj.json</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>Beta</td>
-    </tr>
-     <tr>
-      <td>③</td>
-      <td>直播源推送</td>
-      <td>https://www.cwss.xyz/box/live/live.txt</td>
-      <td>❌</td>
-      <td>✔</td>
-      <td>Final</td>
-    </tr>
-     <tr>
-      <td>④</td>
-      <td>直播源推送</td>
-      <td>https://w6566.github.io/tvlive/box/live/live.txt</td>
-      <td>❌</td>
-      <td>✔</td>
-      <td>Beta</td>
-    </tr>
-    
-  </tbody>
-</table>
-
 
 ### 📝已测试可用软件列表：
 <table>
