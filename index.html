@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.cwss.xyz/favicon.ico">
+    <title>无界 🌏 导航 </title>
+    <meta name="description" content="无界的个人网站，期待与更多的人相遇！">
+    <meta name="keywords" content="无界WuJie">
+    <link rel="stylesheet" type="text/css" href="static/css/h.9c69ed6c.css">
+    <link rel="stylesheet" type="text/css" href="static/css/nekotora.99cf6f8c.css">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137340638-1"></script>
+    <script>
+        function a() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");
+    </script>
+
+</head>
+
+<style>
+    .toast-bottom-center {
+        position: absolute;
+        left: 30px;
+        right: 10px;
+        top: 20px;
+    }
+</style>
+<div class="background">
+    <canvas id="startrack"></canvas>
+    <div class="cover"></div>
+</div>
+<div class="main">
+    <div class="ch intro">
+        <div class="container">
+            <div class="hello">
+                <h1 id="slogan">思考中...</h1>
+                <!--随机文字信息在\js\page.3a0791a3.js中修改-->
+                <h2>
+                    <div class="circle"> <span></span> <span></span>
+                        <span></span>
+                    </div> 无界
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="ch about">
+        <div class="container">
+            <h2 class="chtitle">Who is <span> </span></h2>
+            <div class="clear">
+                <div class="introduct">
+                    <img class="avatar" src="icon/wujieyuan.jpg">
+                    <p>“人们一直都在探索自己认知的边界，而正是这一次又一次打破边界的尝试，推动着人类生活文明的进步，因此，我们坚信未来是无界的。”——你的世界从此无界！</p>
+                    <p style="padding-bottom:1em;">How lucky to meet you!</p>
+                    <p>你好，这里是无界 <sup>WuJie</sup> ，对有趣的世界和可能有趣的你充满好奇，热爱折腾~</p>
+                    <p>希望能与你在比特之海的繁星之下相见！</p>
+					<p>2024-01-31：完成服务器搭建，全新“无界”接口上线。</p>
+					<p>2024-01-16：修复应用商店，可直接安装商店内应用软件。</p>
+                    <p>2024-01-09：修复点播接口，底部加入跑马灯通知栏。</p>
+                    <p>2024-01-06：新增点播接口，正式更名“无界”。</p>
+                    <p>2024-01-05：修复在fongmi影视下推送线路获取失败的问题，集成多条直播线路。</p>
+                    <div class="chatbox">
+                        <div class="line loading"> <span></span>
+                            <span></span> <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="find ch">
+            <div class="container links">
+                <h2 class="chtitle">Tvbox<span>接口</span>点击复制</h2>
+                <div class="clear col-3" style="display: flex;flex-direction: column;">
+                    <div class="item_row" style="display: flex;justify-content: center;">
+                        <div class="item">
+                            <div class="bg" style="background-color:#f30b0b"></div>
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/wj.json ">
+                                <span>无界线路（一）</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg" style="background-color:#f30b0b"></div>
+                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.xn--rgv465a.top/box/live/live.txt">
+                                <span>无界直播（一）</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_row" style="display: flex;justify-content: center;">
+                        <div class="item">
+                            <div class="bg" style="background-color:#1ba050"></div>
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.cwss.xyz/wj.json ">
+                                <span>无界线路（二）</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg" style="background-color:#1ba050"></div>
+                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.cwss.xyz/box/live/live.txt">
+                                <span>无界直播（二）</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_row" style="display: flex;justify-content: center;">
+                        <div class="item">
+                            <div class="bg" style="background-color:#1f3cfb"></div>
+                            <div class="inner copy-btn" id="tangsan" data-clipboard-text="https://w6566.github.io/tvlive/wj.json">
+                                <span>无界线路（三）</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg" style="background-color:#1f3cfb"></div>
+                            <div class="inner copy-btn" id="qiaoer" data-clipboard-text="https://w6566.github.io/tvlive/box/live/live.txt">
+                                <span>无界直播（三）</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gate ch">
+            <div class="container links">
+                <h2 class="chtitle">Tvbox相关<span>推荐</span></h2>
+                <div class="clear col-3">
+                    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=S1UjKElmQeKR5N3UEQ3ClUvaXXF8C63W&authKey=LCGdNNC6IPuQrhuAVsvmJvaREnQlSNX7X1N17a6gDAMIY2GI7zRUqWDSh7bfrMjA&noverify=0&group_code=48481548" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="icon/wujieyuan.jpg"> </div>
+                            <div class="inner">
+                                <h5>无界交流群</h5>
+                                <p>只有分享了，你的快乐才是真的快乐</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://pd.qq.com/s/6bi67ic0j" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="icon/wujieyuan.jpg"> </div>
+                            <div class="inner">
+                                <h5>无界交流频道</h5>
+                                <p>无界QQ频道</p>
+                            </div>
+                        </div>
+                    </a>
+                <a href="https://weibo.com/wj0321" target="_blank">
+                        <div class="item">
+                        <div class="avatar"> <img src="icon/weibo.png">
+                        </div>
+                        <div class="inner">
+                            <h5>无界Sina微博</h5>
+                            <p>关注博主不迷路</p>
+                           </div>
+                        </div>
+                </a>
+                    </a>
+                <a href="https://test-ipv6.com/" target="_blank">
+                        <div class="item">
+                        <div class="avatar"> <img src="icon/ipv6.png">
+                        </div>
+                        <div class="inner">
+                            <h5>IPV6检测</h5>
+                            <p>检测网络是否开启ipv6</p>
+                           </div>
+                        </div>
+                </a>
+                
+                    <a href="http://qiqiv.cn/tvbox" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="static/picture/DUMqP.png">
+                            </div>
+                            <div class="inner">
+                                <h5>tvbox配置编辑</h5>
+                                <p>配置编辑器，支持加解密</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.jyshare.com/" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="icon/cainiaologo.ico">
+                            </div>
+                            <div class="inner">
+                                <h5>菜鸟工具</h5>
+                                <p>常用工具大全~</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://adzhp.net/?ref=www.widiz.com" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="static/picture/A.png"> </div>
+                            <div class="inner">
+                                <h5>爱达杂货铺</h5>
+                                <p>收集那些有用的东西</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--底部波浪-->
+                <div id="hans-bolang"></div>
+                <script src="static/js/bolang.js"></script>
+                <div class="footer ch">
+                    <div class="container">
+                        <h3>星光满载 初心不改 © 2024 无界</h3>
+                        <script async src="static/js/jilei.pure.mini.js"></script> 
+<span id="jilei_container_site_pv">本站总访问量<span id="jilei_value_site_pv"></span>次</span> 
+<span class="post-meta-divider">|</span> 
+<span id="jilei_container_site_uv">本站访客数<span id="jilei_value_site_uv"></span>人</span></p>
+<span id="runtime_span"></span>
+<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
+Date("01/01/2020 0:00:00");
+Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
+runtime_span.innerHTML="本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="static/js/page.3a0791a3.js"></script>
+            <!--以下为点击复制调用js-->
+            <script src="static/js/jquery.min.js"></script>
+            <script src="static/js/clipboard.min.js"></script>
+            <script>
+                $('.copy-btn').click(function() {
+                    let id = $(this).attr('id')
+                    copy('#' + id)
+                })
+
+                function copy(id) {
+                    let clipboard = new ClipboardJS(id);
+                    clipboard.on('success', function(e) {
+                        console.log(e);
+                        alert('无界提醒：复制成功，请前往tvbox接口粘贴')
+                        clipboard.destroy(); //解决多次弹窗问题
+                    });
+                    clipboard.on('error', function(e) {
+                        console.log(e);
+                        alert('请重新复制')
+                        clipboard.destroy(); //解决多次弹窗问题
+                    });
+                }
+            </script>
+
+        </div>
+        <!--在线播放器API-->
+        <script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/170696457073" key="170696457073" m="1"></script>
+        <!--雪花API-->
+        <script src='static/js/snow.js'></script>
+        <!--看板娘-->
+        <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+        <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js"></script>
+        <script>
+            L2Dwidget.init({
+                "model": {
+                    jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+                    "scale": 1
+                },
+                "display": {
+                    "position": "left",
+                    "width": 75,
+                    "height": 150,
+                    "hOffset": 0,
+                    "vOffset": -20
+                },
+                "mobile": {
+                    "show": true,
+                    "scale": 0.5
+                },
+                "react": {
+                    "opacityDefault": 0.7,
+                    "opacityOnHover": 0.2
+                }
+            });
+        </script>
+
+
+
+    </div>
+
+</html>
