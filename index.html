@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <link rel="shortcut icon" type="image/x-icon" href="https://www.cwss.xyz/favicon.ico">
-    <title>无界 🌏 导航 </title>
+    <title>无界🌏导航 </title>
     <meta name="description" content="无界的个人网站，期待与更多的人相遇！">
     <meta name="keywords" content="无界WuJie">
     <link rel="stylesheet" type="text/css" href="static/css/h.9c69ed6c.css">
@@ -21,12 +21,14 @@
 
 </head>
 
-        <nav> 
-        <a href="/" class="active">Index</a> 
+<nav> 
+                             <a href="/" class="active">主页</a>
+		<a class="clip"></a> <a href="https://cloud.lxweb.cn/s/NBQCP">无界网盘</a>
+		<a class="clip"></a> <a href="https://www.cwss.xyz/教程板块.html">无界教程</a>
 		<a class="clip"></a> <a href="https://weibo.com/wj0321">Sina微博</a>
         <a class="clip"></a> <a href="https://pd.qq.com/s/6bi67ic0j">QQ频道</a> 
         <a class="clip"></a> <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=S1UjKElmQeKR5N3UEQ3ClUvaXXF8C63W&authKey=LCGdNNC6IPuQrhuAVsvmJvaREnQlSNX7X1N17a6gDAMIY2GI7zRUqWDSh7bfrMjA&noverify=0&group_code=48481548">QQ群</a> 
-        </nav> 
+</nav> 
         
 <style>
     .toast-bottom-center {
@@ -36,10 +38,12 @@
         top: 20px;
     }
 </style>
+
 <div class="background">
     <canvas id="startrack"></canvas>
     <div class="cover"></div>
 </div>
+
 <div class="main">
     <div class="ch intro">
         <div class="container">
@@ -64,11 +68,12 @@
                     <p style="padding-bottom:1em;">How lucky to meet you!</p>
                     <p>你好，这里是无界 <sup>WuJie</sup> ，对有趣的世界和可能有趣的你充满好奇，热爱折腾~</p>
                     <p>希望能与你在比特之海的繁星之下相见！</p>
+					<p>2024-02-22：无界多仓接口上线。</p>
 					<p>2024-01-31：完成服务器搭建，全新“无界”接口上线。</p>
-					<p>2024-01-16：修复应用商店，可直接安装商店内应用软件。</p>
-                    <p>2024-01-09：修复点播接口，底部加入跑马灯通知栏。</p>
-                    <p>2024-01-06：新增点播接口，正式更名“无界”。</p>
-                    <p>2024-01-05：修复在fongmi影视下推送线路获取失败的问题，集成多条直播线路。</p>
+					<p>2024-01-16：新增应用商店，可直接安装商店内应用软件。</p>
+                    <p>2024-01-09：底部加入跑马灯通知栏。</p>
+                    <p>2024-01-06：接口正式更名“无界”。</p>
+                    <p>2024-01-05：集成多条直播线路，可在Fongmi影视中直接切换。</p>
                     <div class="chatbox">
                         <div class="line loading"> <span></span>
                             <span></span> <span></span>
@@ -86,26 +91,12 @@
                     <div class="item_row" style="display: flex;justify-content: center;">
                         <div class="item">
                             <div class="bg" style="background-color:#f30b0b"></div>
-                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/wj.json ">
-                                <span>无界线路（一）</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="bg" style="background-color:#f30b0b"></div>
-                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.xn--rgv465a.top/box/live/live.txt">
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/box/live/live.txt">
                                 <span>无界直播（一）</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="item_row" style="display: flex;justify-content: center;">
                         <div class="item">
-                            <div class="bg" style="background-color:#1ba050"></div>
-                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.cwss.xyz/wj.json ">
-                                <span>无界线路（二）</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="bg" style="background-color:#1ba050"></div>
+                            <div class="bg" style="background-color:#E74C3C"></div>
                             <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.cwss.xyz/box/live/live.txt">
                                 <span>无界直播（二）</span>
                             </div>
@@ -114,16 +105,45 @@
                     <div class="item_row" style="display: flex;justify-content: center;">
                         <div class="item">
                             <div class="bg" style="background-color:#1f3cfb"></div>
-                            <div class="inner copy-btn" id="tangsan" data-clipboard-text="https://w6566.github.io/tvlive/wj.json">
-                                <span>无界线路（三）</span>
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/wj.json">
+                                <span>无界线路（一）</span>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="bg" style="background-color:#1f3cfb"></div>
-                            <div class="inner copy-btn" id="qiaoer" data-clipboard-text="https://w6566.github.io/tvlive/box/live/live.txt">
-                                <span>无界直播（三）</span>
+                            <div class="bg" style="background-color:#1ba050"></div>
+                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.cwss.xyz/wj.json">
+                                <span>无界线路（二）</span>
                             </div>
                         </div>
+                    </div>
+                    <div class="item_row" style="display: flex;justify-content: center;">
+                        <div class="item">
+                            <div class="bg" style="background-color:#680fe4"></div>
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/line/fine.json">
+                                <span>无界单仓（一）</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg" style="background-color:#c4e00f"></div>
+                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.cwss.xyz/line/fine.json">
+                                <span>无界单仓（二）</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_row" style="display: flex;justify-content: center;">
+                        <div class="item">
+                            <div class="bg" style="background-color:#7F8C8D"></div>
+                            <div class="inner copy-btn" id="feimao" data-clipboard-text="https://www.xn--rgv465a.top/无界多仓">
+                                <span>无界多仓（一）</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg" style="background-color:#28a9e0"></div>
+                            <div class="inner copy-btn" id="fantaiying" data-clipboard-text="https://www.cwss.xyz/无界多仓">
+                                <span>无界多仓（二）</span>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -131,17 +151,19 @@
 
         <div class="gate ch">
             <div class="container links">
-                <h2 class="chtitle">Tvbox相关<span>推荐</span></h2>
+                <h2 class="chtitle">无界<span>推荐</span></h2>
                 <div class="clear col-3">
+                
                     <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=S1UjKElmQeKR5N3UEQ3ClUvaXXF8C63W&authKey=LCGdNNC6IPuQrhuAVsvmJvaREnQlSNX7X1N17a6gDAMIY2GI7zRUqWDSh7bfrMjA&noverify=0&group_code=48481548" target="_blank">
                         <div class="item">
                             <div class="avatar"> <img src="https://www.cwss.xyz/icon/wujieyuan.jpg"> </div>
                             <div class="inner">
                                 <h5>无界交流群</h5>
-                                <p>只有分享了，你的快乐才是真的快乐</p>
+                                <p>无界QQ群</p>
                             </div>
                         </div>
                     </a>
+                    
                     <a href="https://pd.qq.com/s/6bi67ic0j" target="_blank">
                         <div class="item">
                             <div class="avatar"> <img src="https://www.cwss.xyz/icon/wujieyuan.jpg"> </div>
@@ -151,6 +173,7 @@
                             </div>
                         </div>
                     </a>
+                    
                 <a href="https://weibo.com/wj0321" target="_blank">
                         <div class="item">
                         <div class="avatar"> <img src="https://www.cwss.xyz/icon/weibo.png">
@@ -160,8 +183,18 @@
                             <p>关注博主不迷路</p>
                            </div>
                         </div>
-                </a>
+                 </a>
+                 
+                     <a href="https://ys.cwss.xyz/" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="https://www.cwss.xyz/icon/ciwei.png"> </div>
+                            <div class="inner">
+                                <h5>刺猬影视</h5>
+                                <p>在线观影</p>
+                            </div>
+                        </div>
                     </a>
+                   
                 <a href="https://test-ipv6.com/" target="_blank">
                         <div class="item">
                         <div class="avatar"> <img src="https://www.cwss.xyz/icon/ipv6.png">
@@ -173,6 +206,17 @@
                         </div>
                 </a>
                 
+                    <a href="https://www.foodieguide.com/iptvsearch/" target="_blank">
+                        <div class="item">
+                            <div class="avatar"> <img src="https://www.cwss.xyz/icon/iptv.jpg">
+                            </div>
+                            <div class="inner">
+                                <h5>直播源搜索</h5>
+                                <p>国内外电视直播源搜索</p>
+                            </div>
+                        </div>
+                    </a>
+                    
                     <a href="http://qiqiv.cn/tvbox" target="_blank">
                         <div class="item">
                             <div class="avatar"> <img src="https://www.cwss.xyz/icon/DUMqP.png">
@@ -183,6 +227,7 @@
                             </div>
                         </div>
                     </a>
+                    
                     <a href="https://www.jyshare.com/" target="_blank">
                         <div class="item">
                             <div class="avatar"> <img src="https://www.cwss.xyz/icon/cainiaologo.ico">
@@ -193,6 +238,7 @@
                             </div>
                         </div>
                     </a>
+                    
                     <a href="https://adzhp.net/?ref=www.widiz.com" target="_blank">
                         <div class="item">
                             <div class="avatar"> <img src="https://www.cwss.xyz/icon/A.png"> </div>
@@ -202,6 +248,7 @@
                             </div>
                         </div>
                     </a>
+                    
                 </div>
                 <!--底部波浪-->
                 <div id="hans-bolang"></div>
@@ -215,7 +262,7 @@
 <span id="jilei_container_site_uv">本站访客数<span id="jilei_value_site_uv"></span>人</span></p>
 <span id="runtime_span"></span>
 <script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
-Date("01/01/2020 0:00:00");
+Date("01/31/2024 0:00:00");
 Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
 a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
 runtime_span.innerHTML="本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
@@ -238,26 +285,24 @@ runtime_span.innerHTML="本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
                     let clipboard = new ClipboardJS(id);
                     clipboard.on('success', function(e) {
                         console.log(e);
-                        alert('无界提醒：复制成功，请前往tvbox接口粘贴')
+                        alert('无界提醒：复制成功！请前往tvbox类壳软件设置内粘贴！')
                         clipboard.destroy(); //解决多次弹窗问题
                     });
                     clipboard.on('error', function(e) {
                         console.log(e);
-                        alert('请重新复制')
+                        alert('请重新复制！')
                         clipboard.destroy(); //解决多次弹窗问题
                     });
                 }
             </script>
 
-        </div>
+</div>
+
         <!--在线播放器API-->
-        <script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/170696457073" key="170696457073" m="1"></script>
+<script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/170877981431" key="170877981431" m="1"></script>
         <!--雪花API-->
         <script src='static/js/snow.js'></script>
         <!--看板娘-->
-<script src="https://fastly.jsdelivr.net/gh/huangwb8/live2d_bensz@latest/front/autoload.js"></script>
-<script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
-<script src="https://myhkw.cn/api/player/167798938456" id="myhk" key="167798938456" skin="player" au="1" lr="r" m="1"></script>
 <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
 <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js"></script>
         <script>
