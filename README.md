@@ -1,4 +1,4 @@
-<p align="center"><img alt="https://weibo.com/wj0321" src="https://gitee.com/wj0321/tvlive/raw/main/icon/wj-logo.png"></p>
+<p align="center"><img alt="https://weibo.com/wj0321" src="https://gitee.com/wj0321/ys/raw/main/picture/wj-logo.png"></p>
 <h2 align="center">💎 永久免费 丰富点播 多线直播 支持IPv4/IPv6双栈访问 💎</h2>
 <p align="center">
 <a href="https://weibo.com/wj0321"><img src="https://img.shields.io/badge/Sina微博-12.3W-red" alt="Downloads" /></a>
